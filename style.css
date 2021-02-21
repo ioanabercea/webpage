@@ -1,6 +1,6 @@
 body {
   background-color: #FFFFFF;
-#  font-family: verdana;
+font-family: 'Open Sans', sans-serif;
 #  font-size: 10pt;
   margin-left: 1cm;
   margin-right: 1cm;
@@ -18,10 +18,11 @@ h1 {
 
 h3 {
 #  font-family: verdana;
-#  font-size: 10pt;
+ font-size: 20pt;
   margin-top: 0.3cm;
   margin-bottom: 0.3cm;
-  color: #554444;
+ # color: #554444;
+  color: 5D5C61;
 }
 
 table {
@@ -37,3 +38,42 @@ p {
   margin-top: 0cm;
   margin-bottom: 0.2cm;
 }
+
+b {
+#font-family: 'Arvo', serif;
+color: #2E1114;
+font-size: 13pt;
+}
+#arxiv {
+color: #379683;
+}
+
+#title {
+font-size: 15pt;
+}
+
+#advisor{
+color: 501B1D;
+font-weight: bold;
+}
+
+#coauthor{
+color: 5D5C61;
+
+}
+
+#paperlink{
+color: 557A95;
+font-weight: bold;
+}
+
+
+a:link{
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
