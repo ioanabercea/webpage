@@ -63,11 +63,16 @@ color: 5D5C61;
 }
 
 #paperlink{
-font-size: 13pt;
+font-size: 14pt;
 color: 557A95;
 font-weight: bold;
 }
 
+#cv {
+font-size: 15pt;
+color: 557A95;
+font-weight: bold;
+}
 
 a:link{
 text-decoration: none;
