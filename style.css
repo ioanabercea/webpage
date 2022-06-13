@@ -53,8 +53,10 @@ font-size: 15pt;
 }
 
 #advisor{
-color: 501B1D;
+
+color: #379683;
 font-weight: bold;
+font-size: 13pt;
 }
 
 #coauthor{
@@ -64,6 +66,12 @@ color: 5D5C61;
 
 #paperlink{
 font-size: 14pt;
+color: 557A95;
+font-weight: bold;
+}
+
+#univlink{
+font-size: 13pt;
 color: 557A95;
 font-weight: bold;
 }
