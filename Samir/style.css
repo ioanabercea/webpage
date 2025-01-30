@@ -1,0 +1,111 @@
+
+	body {
+	font-family: sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	background-color: #f8f8f8; /* Light gray background */
+	color: #333; /* Dark gray text */
+	}
+	header {
+	background-color: white; 
+	color: white;
+	padding: 20px;
+	text-align: center;
+	}
+	header img {
+	max-width: 100px; /* Adjust as needed */
+	height: auto;
+	display: block; /* Makes the image a block element */
+	margin: 0 auto;  /* Centers the image horizontally */
+	}
+	h1, h2, h3 {
+	font-weight: bold;
+	color: #4E2E84; /* Northwestern Purple for headings */
+	}
+	.container {
+	width: 80%;
+	max-width: 960px; /* Set a maximum width */
+	margin: 20px auto;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	border-radius: 8px; /* Slightly more rounded corners */
+	}
+    .image-container {
+width: 300px; /* Or max-width: 300px; for responsive */
+margin-bottom: 20px; /* Space between image and text */
+margin-right: 20px; /* Space between image and text */
+}
+
+.image-container img {
+max-width: 100%;
+height: auto;
+}
+
+			.text-content img.samir-image { /* Specific style for Samir's image */
+float: left;
+margin-right: 20px;
+margin-bottom: 10px;
+max-width: 500px; /* Adjust as needed */
+height: auto;
+}
+
+
+
+header img { /* Style for the HEADER image */
+max-width: 200px;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+nav {
+text-align: center;
+padding: 10px 0;
+}
+
+nav a {
+margin: 0 10px;
+}
+
+	
+	a {
+	color: #007bff; /* Blue for links */
+	text-decoration: none;
+	}
+	a:hover {
+	text-decoration: underline;
+	}
+	nav {
+	background-color: #4E2E84; /* Northwestern Purple */
+	padding: 10px;
+	text-align: center;
+	}
+	nav a {
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	}
+	nav a:hover {
+	background-color: #6A5ACD; /* Lighter purple on hover */
+	border-radius: 5px;
+	}
+	/* Style for the back link */
+	.back-link {
+	display: block;
+	margin-top: 20px;
+	color: #4E2E84; /* Northwestern Purple */
+	}
+	
+	/* Add some spacing for paragraphs */
+	p {
+	margin-bottom: 15px;
+	}
+	
+	ul {
+	list-style-type: disc; /* Use bullet points for lists */
+	margin-left: 20px; /* Add some left margin for lists */
+	margin-bottom: 15px;
+	}
+	
+	
