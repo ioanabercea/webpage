@@ -65,3 +65,66 @@ width: 90%; /* Make testimonials take full width on smaller screens */
 margin: 10px 0; /* Add some vertical margin */
 }
 }
+
+.gallery {
+padding: 40px;
+text-align: center;
+}
+
+.gallery h2 {
+margin-bottom: 20px;
+color: #007bff;
+}
+
+.gallery-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+gap: 20px; /* Spacing between grid items */
+}
+
+.gallery-item {
+border-radius: 8px;
+overflow: hidden; /* Prevents image from overflowing rounded corners */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+position: relative; /* For positioning the caption */
+}
+
+.gallery-item img {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Maintain aspect ratio and cover the grid cell */
+display: block; /* Prevents a small space below the image */
+transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+.gallery-item:hover img {
+transform: scale(1.1); /* Zoom in slightly on hover */
+}
+
+.gallery-item figcaption {
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+color: #fff;
+padding: 10px;
+text-align: center;
+font-size: 14px;
+}
+
+.gallery-item a {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: block; /* Make the entire gallery item clickable */
+}
+
+/* Responsive adjustments (example) */
+@media (max-width: 768px) {
+.gallery-grid {
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width */
+}
+}
