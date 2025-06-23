@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta http-equiv="refresh" content="0; url=https://theory.cs.northwestern.edu/current-trends-in-algorithm-design/" />
 		<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<title>Workshop Program</title>
@@ -21,14 +22,161 @@
 					
 					<div class="container">
 						<h1>Workshop Program</h1>
-							<p>The plan is to have technical talks in the afternoon, followed by dinner. More detailed program will be posted shortly.</p>
-					<!--
+							<p>There will be technical talks in the afternoon, followed by a receiption in the Tech building.</p>
+					
+							<style>
+								table {
+									width: 90%;
+									border-collapse: collapse;
+									margin: 20px auto;
+									font-family: Arial, sans-serif;
+								}
+								th, td {
+									border: 1px solid #aaa;
+									padding: 10px;
+									text-align: left;
+								}
+								th {
+									background-color: #f0f0f0;
+								}
+								caption {
+									caption-side: top;
+									font-size: 1.5em;
+									margin: 10px;
+								}
+							</style>
+
+							<h2> Schedule </h2>
+
+							<table>
+								<thead>
+									<tr>
+										<th>Time</th>
+										<th>Session Title</th>
+										<th>Speaker</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>02:00 - 2:05</td>
+										<td colspan="2" style="text-align: center;">Opening Remarks</td>
+									</tr>
+									<tr>
+										<td>2:05 - 2:20</td>
+										<td>Approximate shortest path trees</td>
+										<td>Frederic Koehler (U. Chicago)</td>
+									</tr>
+									<tr>
+										<td>2:20 - 2:35</td>
+										<td>Fairness in Facility Location										</td>
+										<td>Emilie Rivkin (Northwestern)</td>
+									</tr>
+									<tr>
+										<td>2:35 - 2:50</td>
+										<td>Allocating Wisdom and Matching Milestones</td>
+										<td>Quanquan Liu (Yale)</td>
+									</tr>
+									<tr>
+										<td>2:50 - 3:05</td>
+										<td>Fair Resource Allocation under Structured Constraints</td>
+										<td>Arpita Biswas (Rutgers)</td>
+									</tr>
+									<tr>
+										<td>3:05 - 3:30</td>
+										<td>Reflections from Northwestern</td>
+										<td>Sara Sood (Northwestern)</td>
+									</tr>
+									<tr>
+										<td>3:30 - 4:00</td>
+										<td colspan="2" style="text-align: center;">Coffee Break</td>
+									</tr>
+									<tr>
+										<td>4:00 - 4:15</td>
+										<td>The power of collaboration: Building the Iribe Center</td>
+										<td>Stacey Sickels Boyce (Stanford)</td>
+									</tr>
+									<tr>
+										<td>4:15 - 4:30</td>
+										<td>Linear Elastic Caching via Ski Rental</td>
+										<td>Manish Purohit (Google)</td>
+									</tr>
+									<tr>
+										<td>4:15 - 4:30</td>
+										<td>Approximation Algorithms: Now and Then										</td>
+										<td>Barna Saha (UC San Diego)</td>
+									</tr>
+									<tr>	
+										<td>4:30 - 4:45</td>
+										<td>Mechanism Design with Deferred Inspection</td>
+										<td>Azaraksh Malekian (U Toronto)</td>
+									</tr>
+									<tr>	
+										<td>5:00 - 5:15</td>
+										<td>Online metric matching with advice</td>
+										<td>Julian Mestre (U Sydney)</td>
+									</tr>
+									<tr>	
+										<td>5:15 - 5:30</td>
+										<td>My association with Samir for more than a quarter century</td>
+										<td>Rajiv Gandhi (Rutgers U/U Penn)</td>
+									</tr>
+									<tr>	
+										<td>5:30 - 5:45</td>
+										<td>Facility Location</td>
+										<td>Sudipto Guha (ZScalar)</td>
+									</tr>
+									<tr>	
+										<td>5:45 - 6:00</td>
+										<td>Closing remarks</td>
+										<td>Samir Khuller (Northwestern)</td>
+									</tr>
+									<tr>	
+										<td>6:00 - 8:00</td>
+										<td colspan="2" style="text-align: center;">Reception</td>
+									</tr>
+
+								</tbody>
+							</table>
+
+						<h2> Abstracts </h2>
 						<ul>
-							<li><strong>[Date and Time]:</strong> [Session Title/Speaker]</li>
-							<li><strong>[Date and Time]:</strong> [Session Title/Speaker]</li>
-							<li><strong>[Date and Time]:</strong> [Session Title/Speaker]</li>
+							<li><strong>Approximate shortest path trees</strong> (Frederic Koehler) <br> 
+							 The structure of approximate shortest paths in random graphs is surprisingly interesting. I will mention some related phenomena which appear when we look at shortest path trees.
+							</li>
+							<li><strong>Fairness in Facility Location</strong> (Emilie Rivkin) <br> 
+								In this talk, we study a generalization of the facility location problem. In the facility location problem, we have a set of clients and a set of facilities. The goal is to find a set of facilities to open such that the sum of the total distance between each client and its nearest facility and the opening costs of the facilities is minimized. This classic problem has been studied extensively and has many applications in fields such as operations research. In a generalization of this problem, we are allowed to leave a particular number of clients unserved. In this talk, we partition the clients into groups and give each group its own coverage requirement. By adding these coverage requirements, we ensure that the groups are fairly represented among the outliers. Our approach combines a primal-dual algorithm with a guessing strategy to give a 2-approximation for a constant number of groups.
+
+								This is ongoing work with Rajni Dabas and Samir Khuller.
+							</li>
+							<li><strong>Allocating Wismon and Matching Milestones</strong> (Quanquan Liu) <br> 
+								In this talk, we'll discuss maximum matching and fair allocations with timeless wisdom from Samir sprinkled in. Fair allocation keeps classrooms balanced and students happy. In this celebratory talk, I’ll trace how our algorithms with Samir—from scalable auction methods to conflict-free course assignment—have shaped both theory and practice. Along the way, expect a few personal favorite “Samir-isms,” photographs from my time at Northwestern, and the lessons he still teaches us about curiosity, collaboration, and keeping theory elegant at any point in our lives.
+							</li>
+   
+							<li><strong>Fair Resource Allocation under Structured Constraints</strong> (Arpita Biswas) <br> 
+								The problem of fairly allocating indivisible items among a set of heterogeneous agents with competing preferences is a fundamental and challenging problem in the field of computational social choice theory. The problem becomes more computationally challenging when there are additional constraints on the type of allocation that could be made, for example, each allocate bundle may need to meet cardinality constraints, laminar constraints, matroid constraints, non-conflicting constraints, and other graphical constraints. The goal is to obtain a fair and feasible allocation of items among the agents while ensuring that each allocated bundle is feasible. In this talk, I’ll discuss various fairness notions, such as maximin fairness and almost envy freeness, that are pertinent to this problem of fair allocation. I'll present algorithmic solutions designed for different models of agent preferences, and highlight key open questions in this rich and evolving research area.
+							</li>
+							<li><strong>Linear Elastic Caching via Ski Rental</strong> (Manish Purohit) <br> 
+								We study the Linear Elastic Caching problem, where the goal is to minimize the total cost of a cache inclusive of not just its misses, but also its memory footprint integrated over time. We demonstrate a theoretical connection to the classic ski rental problem and propose a practical algorithm that combines online caching algorithms with ski rental policies. We also introduce a lightweight machine learning-based algorithm for ski rental that is optimized for production workloads and is easy to integrate within existing database systems.
+							</li>
+							<li><strong>Approximation Algorithms: Now and Then</strong> (Barna Saha) <br> 
+								In this talk we will explore the evolution of approximation algorithms landscape in the last two decades.
+							</li>
+							<li><strong>Mechanism Design with Deferred Inspection</strong> (Azaraksh Malekian) <br> 
+								Motivated by applications in e-commerce, we consider a mechanism design setting in which, after the allocation, the designer can inspect the buyer's true type and adjust the payment. This means that the allocation is based on the reported types, but the payment is based on both the reported and true types. We will highlight how the analysis departs from the classical mechanism design. Using techniques from convex analysis and calculus of variations, we fully characterize the optimal mechanism for a single agent for any distribution of values. Then, using Border's theorem and duality, we find conditions under which our characterization extends to multiple agents. Interestingly, the optimal allocation function, unlike the classic settings without inspection, is not a threshold strategy and instead is an increasing and continuous function of the types. Based on joint work with Saeed Alaei, Alex Belloni, and Ali Makhdoumi.
+							</li>
+							<li><strong>Online metric matching with advice</strong> (Julian Mestre) <br> 
+								In this talk I will revisit a classical result of Samir for online metric biparite matching by looking at the problem through the les of learning-augmented algorithms.
+							</li>
+							<li><strong>My association with Samir for more than a quarter century: Research, Conversations, Secrets, and more</strong> (Rajiv Gandhi) <br> 
+								I will discuss the things that I have learned from Samir and about Samir since I first met him in 1998.
+							</li>
+							<li><strong>Facility Location</strong> (Sudipto Guha) <br> 
+								The facility location problem has been the location for developing many great algorithmic techniques. This talk showcases some of the aspects of Samir's work in approximation algorithms for facility location that remain relevant to this day.
+							</li>
+
+
 						</ul>
-						-->
+						
 						<a href="index.html" class="back-link">&lt; Back to Main Page</a>
 					</div>
 				</body>
