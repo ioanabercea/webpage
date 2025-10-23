@@ -50,6 +50,10 @@ color: #379683;
 
 #title {
 font-size: 15pt;
+#font-family: 'Arvo', serif;
+color: #2E1114;
+  font-style: normal;
+  font-weight: bold;
 }
 
 #advisor{
