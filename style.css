@@ -94,4 +94,7 @@ a:hover {
 text-decoration: underline;
 }
 
+li + li {
+margin-top : 0.25em;
+}
 
